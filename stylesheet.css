@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------- nav bar ---------------*/
+
+/* nav bar icon fr small screens */
+.navbar-icon {
+    color: white;
+}
+
+/* logo */
+.navbar-brand {
+    position: relative;
+}
+
+.navbar-brand > img {
+    width: 40px;
+} 
+
+/* navbar-items */
+
+
+.nav-link {
+    font-family: 'Indie Flower', cursive;
+    color: #673B24;
+    font-weight: 700px;
+}
+
+/* order-button */
+
+.btn-navbar-order {
+    border-radius: 16px;
+    color: #FFDE4E;
+    background: #673B24;
+    border-color: #673B24;
+    font-family: 'Staatliches', cursive;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+
+.btn-navbar-order:hover {
+    background: #FFDE4E;
+    color: #673B24;
+    border-color: #FFDE4E;
+}
+/*---------------- banner ---------------*/
+.jumbotron {
+    background: #FFDE4E;
+}
+.b-left-side {
+    line-height: 3px;
+}
+.b-left-side > h2 {
+    color: #2A1F0A;
+    font-family: 'Staatliches', cursive;
+    font-size: 43px;
+}
+.b-left-side > p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+
+
+.b-left-side > a {
+    font-weight: bold;
+    color: #2A1F0A;
+    text-decoration: none;
+}
+
+.b-leaf {
+    position: absolute;
+    margin-top: 30px;
+    width: 120px;
+}
+
+.b-tomato {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 210px;
+    width: 13%;
+}
+/*---------------- menu ---------------*/
+
+.menu {
+    background-color: #C7FF4E;
+}
+
+/* menu header */
+.m-header {
+    text-align: center;
+}
+.m-header h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 43px;
+}
+.m-header a{
+    text-decoration: none;
+    color: #673B24;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+}
+.m-header a::after {
+    content: " |";
+}
+.m-header a:last-of-type::after {
+    content: "";
+}
+.m-header a:hover {
+    text-decoration: underline;
+    color: #673B24;
+}
+
+/* --card --*/
+
+/* item 1 */
+/* .m-item-1 img {
+    
+} */
+.m-item-1 h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.m-item-1 p {
+    text-align: center;
+}
+
+/* item 2 */
+.m-item-2 {
+    margin-top: 47px;
+}
+.m-item-2 img {
+    width: 60%;
+    margin-left: 18%;
+}
+.m-item-2 h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.m-item-2 p {
+    text-align: center;
+}
+
+/* item 3 */
+.m-item-3 {
+    margin-top: -53px;
+}
+.m-item-3 img {
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+}
+.m-item-3 h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.m-item-3 p {
+    text-align: center;
+}
+
+/* item 4 */
+.m-item-4 img {
+    width: 90%;
+}
+.m-item-4 h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.m-item-4 p {
+    text-align: center;
+}
+
+/* item 5 */
+.m-item-5 img {
+    width: 51%;
+    margin-left: 20%;
+}
+.m-item-5 h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.m-item-5 p {
+    text-align: center;
+}
+
+/* item 6 */
+.m-item-6 img {
+    margin-left: 25%;
+    width: 48%;
+}
+.m-item-6 h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.m-item-6 p {
+    text-align: center;
+}
+
+/*---------------- location ---------------*/
+
+.location {
+    padding: 1%;
+}
+
+/* header */
+.l-header {
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    font-size: 43px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+/* map */
+
+/* .l-body-map {
+} */
+
+.l-body-map > iframe{
+    margin-right: 0px;
+}
+
+/* address */
+/* .l-body-address {
+} */
+
+.l-body-address-1  {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 6%;
+    line-height: -10px;
+}
+
+.l-body-address-2 {
+    font-size: 90%;
+    color: #8f8f8f;
+}
+
+.l-body-address-3 {
+    font-size: 90%;
+    color: #8f8f8f;
+}
+
+.l-body-address-4 {
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*---------------- examples photo ---------------*/
+
+/*---------------- footer ---------------*/
+
+.footer {
+    background-color: #241F21;
+    padding-top: 2%;
+}
+
+/* footerleft side */
+.footer-left > h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+.footer-left > p {
+    text-align: center;
+    color: #673B24;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* footer-right side */
+.footer-right > p {
+    text-align: center;
+    color: white;
+}
+.footer-right > div {
+    text-align: center;
+    color: #613C28;
+}
